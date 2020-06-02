@@ -62,3 +62,10 @@ challenging to get napari working on your machine. Because of the limited time
 for the course, we will probably not have time to troubleshoot installation
 issues during the lecture, but we will endeavour to help you get it running
 before or after the course.
+
+If you don't have a running environment before the course, you can launch this
+repository on the cloud by clicking on the binder link below. It can take time
+to get the remote virtual machine to boot, so click on this link at least 30
+minutes before the course starts.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jni/napari-training-course/binder)

@@ -1,0 +1,35 @@
+name: napari
+channels:
+  - conda-forge
+  - ome
+  - manics
+dependencies:
+  - jupyter-server-proxy
+  - python=3.6
+  - pip
+  - websockify=0.9.0
+  - omero-py=5.6
+  # https://github.com/napari/napari/blob/v0.2.4/requirements/default.txt
+  - dask
+  - zarr
+  - numcodecs!=0.6.4
+  - fsspec
+  - imageio
+  - ipykernel
+  - numpy
+  - qtpy
+  - qtconsole
+  - scipy
+  - scikit-image
+  - vispy
+  - ipython
+  - backcall
+  - pyopengl
+  - pyside2
+  - wrapt
+  - numpydoc
+  # - pip:
+    # The conda pyside2 package doesn't appear in pip list so napari tries to reinstall it
+    # https://github.com/conda-forge/pyside-feedstock/issues/35
+    # napari==
+    # Manually install in postBuild instead with --no-dependencies
