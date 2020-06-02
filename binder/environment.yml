@@ -1,18 +1,13 @@
 name: napari
 channels:
+  - defaults
   - conda-forge
-  # - manics
 dependencies:
-  - jupyter-server-proxy
   - python=3.8
-  - pip
-  - dask
-  - numcodecs
-  - scikit-image
-  - numpy
-  - scipy
-  - matplotlib-base
   - pip:
+    - jupyter-server-proxy
+    - numpy
     - websockify==0.9.0
     - napari
+    - scikit-image
     - tifffile[all]
