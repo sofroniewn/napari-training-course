@@ -64,8 +64,23 @@ issues during the lecture, but we will endeavour to help you get it running
 before or after the course.
 
 If you don't have a running environment before the course, you can launch this
-repository on the cloud by clicking on the binder link below. It can take time
+repository on the cloud by clicking on the Binder link below. It can take time
 to get the remote virtual machine to boot, so click on this link at least 30
 minutes before the course starts.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jni/napari-training-course/binder)
+**IMPORTANT NOTES WHEN RUNNING ON BINDER**
+
+- Things are much slower on Binder, including initializing the Qt event loop.
+  What this means is that you should **wait at least 5 seconds** after running
+  the cell containing `%gui qt` before running any napari cells. **If you don't
+  do this, you will need to restart the notebook from scratch!**
+- To get the desktop on Binder, **before starting any notebooks**, click on
+  "New → desktop" at the top right of the file list. This will open a desktop
+  in a new tab. We recommend dragging the tab out to make it a separate window.
+  Then, start the notebooks from the original file list tab. napari windows
+  created from the notebooks will appear in the desktop browser window.
+- Because these windows are running on a remote desktop, the performance is not
+  as smooth as using local napari, but it should give you a sense of its
+  capabilities and allow you to follow along with the lessons.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sofroniewn/napari-training-course/master)
