@@ -51,4 +51,4 @@ python -c "from pkg_resources import iter_entry_points; print(list(iter_entry_po
 
 popd
 
-pip install --pre napari[all]
+pip install --no-deps --pre napari
