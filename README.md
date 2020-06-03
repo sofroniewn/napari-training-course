@@ -1,8 +1,12 @@
 # napari-training-course
 
-Lectures for a napari training course
+This repositiory contains lessons for a napari training course. Each lesson is a
+[jupyter notebook](https://jupyter.org/), located inside the `lessons` folder.
 
-# setup
+To prepare for the training course you should do the following three steps before the
+course begins. The instructor will then go through the notebooks during the course.
+
+# 1. setup
 
 Start by downloading this repository. If you already use git, you can use the
 following command to clone this repository to your local machine:
@@ -16,6 +20,11 @@ file, which you can then unzip on your computer. The file is available at:
 
 https://github.com/sofroniewn/napari-training-course/archive/binder.zip
 
+Once cloned or unzipped you should navigate to the `napari-training-course`
+directory from the command line.
+
+# 2. installation
+
 You also need a working Python installation. We will be using a conda
 environment for this course. If you have never seen conda environments, Robert
 Haase provides a simple introduction in [this
@@ -23,13 +32,13 @@ lecture](https://www.youtube.com/watch?v=MOEPe9TGBK0). You can get miniconda
 [here](https://docs.conda.io/en/latest/miniconda.html).
 
 Once you have a working conda installation, you have two options. The second
-one should work in non-conda environments but only do this if you know what you
-are doing!
+one should work in non-conda environments too but only do this if you know what
+you are doing!
 
-## 1. create a conda environment for the course (recommended)
+## a. create a conda environment for the course (recommended)
 
-We have provided a pre-defined environment for you to use. You can create it
-with the command:
+We have provided a pre-defined environment for you to use. Using the command line,
+you can create it with the command:
 
 ```python
 conda env create -f environment.yml
@@ -41,7 +50,7 @@ And then activate it with:
 conda activate napari
 ```
 
-## 2. use a pre-existing conda environment
+## or b. use a pre-existing conda environment (alternative)
 
 If you have a pre-existing environment that you would like to use for the
 course, you should install napari, scikit-image, and tifffile:
@@ -59,7 +68,7 @@ pip install -r requirements.txt
 Of course, after the course, you can `pip install napari` into your preferred
 environment.
 
-## checking that your napari install is working
+# 3. checking that your napari install is working
 
 Once you have installed napari, you should test that your install is working in
 two ways:
@@ -70,6 +79,11 @@ two ways:
   file) and type `python check-setup.py`. Again, make sure your environment is
   activated. You should be able to see napari displaying an image of some
   cell nuclei.
+
+The training course will be taught from [jupyter notebooks](https://jupyter.org/),
+and before the course you should also check that you can launch the notebook
+environment using the `jupyter lab` command. This command should open the notebook
+interface in your browser. 
 
 ## if you can't get napari to work
 
