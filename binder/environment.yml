@@ -1,0 +1,34 @@
+name: napari
+channels:
+  - conda-forge
+  - manics
+dependencies:
+  - python=3.7
+  - pip
+  - websockify=0.9.0
+  - jupyter-server-proxy
+  - numpy
+  - scipy
+  - scikit-image
+  - vispy
+  - dask
+  - zarr
+  - fsspec
+  - imageio
+  - tifffile
+  - imagecodecs
+  - ipykernel
+  - jupyter_client
+  - qtpy
+  - qtconsole
+  - IPython
+  - backcall
+  - pluggy
+  - PyOpenGl
+  - PySide2
+  - wrapt
+  - numpydoc
+  - napari-plugin-engine
+  - napari-svg
+  - pip:
+    - cachey==0.2.1
