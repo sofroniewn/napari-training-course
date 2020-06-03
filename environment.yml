@@ -1,0 +1,9 @@
+name: napari
+channels:
+  - conda-forge
+dependencies:
+  - scikit-image
+  - jupyter
+  - tifffile
+  - imagecodecs
+  - napari
