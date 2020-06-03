@@ -9,6 +9,5 @@ dependencies:
   - pip:
     - jupyter-server-proxy
     - numpy
-    - napari
     - scikit-image
     - tifffile[all]

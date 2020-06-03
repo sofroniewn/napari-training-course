@@ -50,3 +50,5 @@ pip install .
 python -c "from pkg_resources import iter_entry_points; print(list(iter_entry_points(group='jupyter_serverproxy_servers')))"
 
 popd
+
+pip install --pre napari[all]
