@@ -23,6 +23,10 @@ https://github.com/sofroniewn/napari-training-course/archive/binder.zip
 Once cloned or unzipped you should navigate to the `napari-training-course`
 directory from the command line.
 
+```
+cd napari-training-course
+```
+
 # 2. installation
 
 You also need a working Python installation. We will be using a conda
@@ -65,7 +69,7 @@ or you can use our provided requirements.txt file:
 pip install -r requirements.txt
 ```
 
-Of course, after the course, you can `pip install napari` into your preferred
+Of course, after the course, you can `pip install napari[all]` into your preferred
 environment.
 
 # 3. checking that your napari install is working

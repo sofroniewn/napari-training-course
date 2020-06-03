@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - scikit-image
-  - jupyter
+  - jupyterlab
   - tifffile
   - imagecodecs
   - napari
