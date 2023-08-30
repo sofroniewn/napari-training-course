@@ -4,7 +4,7 @@ This repositiory contains lessons for a napari training course. Each lesson is a
 [jupyter notebook](https://jupyter.org/), located inside the `lessons` folder.
 
 To prepare for the training course you should do the following three steps before the
-course begins. The instructor will then go through the notebooks during the course.
+course begins. The instructor will then go through the notebooks during the [course](https://www.youtube.com/watch?v=VgvDSq5aCDQ&ab_channel=NEUBIAS).
 
 # 1. setup
 
